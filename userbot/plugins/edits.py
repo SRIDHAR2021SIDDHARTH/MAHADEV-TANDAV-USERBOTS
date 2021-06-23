@@ -11,7 +11,11 @@ Available Commands:
 .lol
 .heart
 .candy
-.nothappy"""
+.nothappy
+.lund
+.bsdk
+.phukk
+.mahadev"""
 
 from telethon import events
 import asyncio
