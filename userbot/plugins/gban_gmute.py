@@ -41,7 +41,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("Error... Please report at @Dark_cobra_support_group", str(err))           
+            return await event.edit("Error... Please report at @TANDAV_USERBOT_SUPPORT", str(err))           
     return user_obj, extra
 
 
@@ -61,7 +61,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("Gbanning This User !")
+        dark = await dc.reply("Gbanning This Nigga !")
     else:
         dark = await dc.edit("Wait Processing.....")
     me = await userbot.client.get_me()
@@ -85,7 +85,7 @@ async def gben(userbot):
     except:
         return await dark.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1289422521:
+        if user.id == 1883752632:
             return await dark.edit(
                 f"**You nub nibba..I can't gben my creator..**"
             )
@@ -106,7 +106,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"**Globally banned 🙄🙄 Total Affected Chats **: `{a}`")
+                await dark.edit(f"##### MAHADEV_USERBOT #####\n\n**⚡This nub is Globally banned..⚡ Total Affected Chats **: `{a}`\n\n ##### MAHADEV_USERBOT #####")
             except:
                 b += 1
     else:
@@ -117,7 +117,7 @@ async def gben(userbot):
     except:
         pass
     return await dark.edit(
-        f"**Globally banned this nub nibba [{user.first_name}](tg://user?id={user.id}) Affected Chats😏 : {a} **"
+        f"**##### MAHADEV_USERBOT #####\n\n**⚡This nub is Globally banned..⚡ Total Affected Chats **: `{a}`\n\n ##### MAHADEV_USERBOT ##### **"
     )
 
 
@@ -151,7 +151,7 @@ async def gunben(userbot):
     except:
         return await dark.edit("Someting Went Wrong 🤔")
     if user:
-        if user.id == 1289422521:
+        if user.id == 1883752632:
             return await dark.edit("**You nub nibba..can't gban or ungban my creator... !**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
@@ -170,7 +170,7 @@ async def gunben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await dark.edit(f"**Ungbaning this nub nibba.. AFFECTED CHATS - {a} **")
+                await dark.edit(f"##### MAHADEV_USERBOT #####\n\n**Ungbaning this nub nibba.. AFFECTED CHATS - {a} **\n\n ##### MAHADEV_USERBOT #####")
             except:
                 b += 1
     else:
@@ -181,7 +181,7 @@ async def gunben(userbot):
     except:
         pass
     return await dark.edit(
-        f"**Ungbanned this noon nibba..getting him another chance... ; USER - [{user.first_name}](tg://user?id={user.id}) CHATS : {a} **"
+        f"##### MAHADEV_USERBOT #####\n\n**Ungbanned this noon nibba..getting him another chance... ; USER - [{user.first_name}](tg://user?id={user.id}) CHATS : {a} **"
     )
 
 
