@@ -19,20 +19,21 @@ from platform import python_version, uname
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 if ALIVE_PIC is None:
-   ALIVE_PIC = "https://telegra.ph/file/8458f16bebf2b7f73baa8.jpg"
+   ALIVE_PIC = "https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg"
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE = "**🔱DARK COBRA IS Awake🔱 \n\n\n**"
-   ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
-   ALIVE_MESSAGE += f"`Telethon: TELETHON-1.19.0 \n\n`"
-   ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
-   ALIVE_MESSAGE += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
-   ALIVE_MESSAGE += f"`Support Channel` : @Dark_cobra_support \n\n"
-   ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
+   ALIVE_MESSAGE = "**🔱𝕄𝔸ℍ𝔸𝔻𝔼𝕍 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 𝕀𝕊 𝔸𝕎𝔸𝕂𝔼..🔱 \n\n\n**"
+   ALIVE_MESSAGE += "`ꜱᴛᴀᴛꜱ \n\n\n`"
+   ALIVE_MESSAGE += f"`ᴛᴇʟᴇᴛʜᴏɴ: TELETHON-1.19.0 \n\n`"
+   ALIVE_MESSAGE += f"`ᴘʏᴛʜᴏɴ: PYTHON-3.8.5 \n\n`"
+   ALIVE_MESSAGE += "`ɪ'ʟʟ ʙᴇ ᴡɪᴛʜ ʏᴏᴜ ᴍᴀꜱᴛᴇʀ ᴛɪʟʟ ᴍʏ ᴅʏɴᴏ ᴇɴᴅꜱ ᴏʀ ʏᴏᴜ ꜱᴡɪᴛᴄʜ ᴏꜰꜰ ᴍᴇ ᴍᴀɴᴜᴀʟʟʏ!☠ \n\n`"
+   ALIVE_MESSAGE += f"`ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ` :  @TANDAV_USERBOT_CHANNEL\n\n"
+   ALIVE_MESSAGE += f"`ꜱᴜᴘᴘᴏʀᴛ/ꜱᴜɢɢᴇꜱᴛɪᴏɴ ɢʀᴏᴜᴘ` :  @TANDAV_USERBOT_SUPPORT\n\n"
+   ALIVE_MESSAGE += f"`ᴍʏ ᴘᴇʀᴏᴏ ꜱᴇ ʙʜɪ ᴘᴇʀᴏᴏ ᴍᴀꜱᴛᴇʀ🔥`: {DEFAULTUSER} \n\n "
                 
             
 #@command(outgoing=True, pattern="^.awake$")
