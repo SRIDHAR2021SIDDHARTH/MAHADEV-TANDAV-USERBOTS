@@ -1,3 +1,6 @@
+# Thanks To Jass Manak For changes..
+
+
 """ 
 
 
@@ -29,7 +32,7 @@ delete kr diya h _inline
 
 #getlost
 
-#TEAM DC
+#JassManak
 
 #special plugin for Kangers..
 
