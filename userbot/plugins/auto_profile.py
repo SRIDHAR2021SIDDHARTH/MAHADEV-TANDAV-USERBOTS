@@ -10,7 +10,7 @@ from userbot import ALIVE_NAME, CMD_HELP
 
 BIO_MSG = Config.BIO_MSG
 if BIO_MSG is None:
-  BIO_MSG = "I am a pro @Dark_cobra_support"
+  BIO_MSG = "ᴍᴀʜᴀᴅᴇᴠ ᴜꜱᴇʀʙᴏᴛ ᴏᴘ ʙᴀᴀᴋɪ ꜱᴀʙ ᴛᴏᴘɪ.."
 
 DEL_TIME_OUT = 60
 
@@ -41,7 +41,7 @@ async def _(event):
 
 
 TIME_OUT = 60
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "FRIDAY"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸ℍ𝔸𝔻𝔼𝕍 𝕌𝕊𝔼ℝ𝔹𝕆𝕋"
 
 
 @borg.on(admin_cmd(pattern="autoname"))  # pylint:disable=E0602
