@@ -30,7 +30,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MAHADEV TANDAV USERBOT"
 global ghanti
 ghanti = borg.uid
 edit_time = 5
-""" https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg """
+""" =======================CONSTANTS====================== """
+file1 = "https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg"
+""" =======================CONSTANTS====================== """
 
 
 @borg.on(admin_cmd(pattern=r"alive"))
