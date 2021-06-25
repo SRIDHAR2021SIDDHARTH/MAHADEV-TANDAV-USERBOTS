@@ -15,7 +15,9 @@ Available Commands:
 .lund
 .bsdk
 .phukk
-.mahadev"""
+.mahadev
+.fuckk
+.tandav"""
 
 from telethon import events
 import asyncio
@@ -131,5 +133,26 @@ async def _(event):
 	for _ in range(20):
 		await asyncio.sleep(1)
 		await event.edit("".join(deq))
+		
+@borg.on(admin_cmd(pattern=r"fuckk"))
+async def _(event):
+	if event.fwd_from:
+		return
+	deq = deque(list("JNL..TERI MAA KI CHUT MADHARCHOD..\nTERII MAA KOO CHODUNGAA BSDK GB ROAD PE "))
+	for _ in range(20):
+		await asyncio.sleep(1)
+		await event.edit("".join(deq))
+		
+@borg.on(admin_cmd(pattern=r"tandav"))
+async def _(event):
+	if event.fwd_from:
+		return
+	deq = deque(list("https://telegra.ph/file/22f37acb28d0d3b39d1c9.jpg\n\nɴᴏʙᴏᴅʏ ᴄᴀɴ ʜᴜʀᴛ ᴜꜱ ᴡɪᴛʜᴏᴜᴛ ᴏᴜʀ ᴘᴇʀᴍɪꜱꜱɪᴏɴ....\n\nᴍᴀʜᴀᴅᴇᴠ ꜰɪɢʜᴛᴇʀꜱ ᴀʀᴇ ʜᴇʀᴇ\n\n\n🔱⚜ʜᴀʀ ʜᴀʀ ᴍᴀʜᴀᴅᴇᴠ⚜🔱"))
+	for _ in range(20):
+		await asyncio.sleep(1)
+		await event.edit("".join(deq))
+		deq.rotate(1)
+    
+    
 			
 
