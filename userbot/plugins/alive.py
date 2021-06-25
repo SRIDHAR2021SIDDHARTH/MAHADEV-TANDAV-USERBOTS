@@ -31,7 +31,9 @@ global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg"
+file1 = "https://telegra.ph/file/03e03334c8dc1c8e124d2.jpg"
+file2 = "https://telegra.ph/file/974b08d63a0b0d967e778.jpg"
+file3 = "https://telegra.ph/file/9aba3f1c2d3047a625da5.jpg"
 """ =======================CONSTANTS====================== """
 
 
@@ -44,13 +46,13 @@ async def hmm(yes):
     ghanti = borg.uid
     await yes.delete()
     uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
-    pm_caption = "** 𝕄𝔸ℍ𝔸𝔻𝔼𝕍 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼!!**\n\n"
+    pm_caption = "** 🅼🅰🅷🅰🅳🅴🆅 🆄🆂🅴🆁🅱🅾🆃 🅸🆂 🅾🅽🅻🅸🅽🅴**\n\n"
     pm_caption += "**ʏᴇꜱ ᴍᴀꜱᴛᴇʀ, ᴀᴍ ᴀʟɪᴠᴇ ᴀɴᴅ ꜱʏꜱᴛᴇᴍꜱ ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ᴘᴇʀꜰᴇᴄᴛʟʏ ᴀꜱ ɪᴛ ꜱʜᴏᴜʟᴅ ʙᴇ...**\n\n"
-    pm_caption += "✘ 𝕄𝔸ℍ𝔸𝔻𝔼𝕍 𝕋𝔸ℕ𝔻𝔸𝕍 𝕌𝕊𝔼ℝ𝔹𝕆𝕋  ✘\n\n"
+    pm_caption += "✘ 𝐌𝐀𝐇𝐀𝐃𝐄𝐕 𝐓𝐀𝐍𝐃𝐀𝐕 𝐔𝐒𝐄𝐑𝐁𝐎𝐓  ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
     pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝕄𝔸ℍ𝔸𝔻𝔼𝕍](https://github.com/SRIDHAR2021SIDDHARTH)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝕄𝔸ℍ𝔸𝔻𝔼𝕍](https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOT)\n\n"
+    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH)\n"
+    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOT)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
