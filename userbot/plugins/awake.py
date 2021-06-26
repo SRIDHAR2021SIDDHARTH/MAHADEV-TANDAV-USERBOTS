@@ -19,7 +19,7 @@ from platform import python_version, uname
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 if ALIVE_PIC is None:
-   ALIVE_PIC = "https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg"
+   ALIVE_PIC = "https://telegra.ph/file/8eff616d2c2a262304969.jpg"
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
