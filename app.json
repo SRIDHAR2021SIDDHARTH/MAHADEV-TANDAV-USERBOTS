@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOT/",
-  "website": "https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOT/",
+  "repository": "https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOTS/",
+  "website": "https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOTS/",
   "success_url": "https://t.me/TANDAV_USERBOT_SUPPORT",
   "stack": "container",
   "env": {
@@ -56,7 +56,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/6f739e51ecfc6bf7ee9de.jpg",
+      "value": "https://telegra.ph/file/c2a41d2d7f31f105acdb3.mp4",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
