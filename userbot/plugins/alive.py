@@ -52,7 +52,7 @@ async def hmm(yes):
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
     pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
     pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOT)\n\n"
+    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOTS)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
