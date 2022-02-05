@@ -66,7 +66,7 @@ if LOAD_ASSISTANT == True:
 else:
     print("Assitant is Not Loading As U Have Disabled")
 
-print("MAHADEV TANDAV userbot AND YOUR ASSISTANT is Active Enjoy Join @TANDAV_USERBOT_SUPPORT For Updates.")
+print("MAHADEV TORNADO userbot AND YOUR ASSISTANT is Active Enjoy Join @MAHADEV_TORNADO_USERBOT_SUPPORT For Updates.")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
