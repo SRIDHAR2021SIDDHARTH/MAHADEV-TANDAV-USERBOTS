@@ -48,9 +48,9 @@ async def hmm(yes):
     uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
     pm_caption = "** 🅼🅰🅷🅰🅳🅴🆅 🆄🆂🅴🆁🅱🅾🆃 🅸🆂 🅾🅽🅻🅸🅽🅴**\n\n"
     pm_caption += "**ʏᴇꜱ ᴍᴀꜱᴛᴇʀ, ᴀᴍ ᴀʟɪᴠᴇ ᴀɴᴅ ꜱʏꜱᴛᴇᴍꜱ ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ᴘᴇʀꜰᴇᴄᴛʟʏ ᴀꜱ ɪᴛ ꜱʜᴏᴜʟᴅ ʙᴇ...**\n\n"
-    pm_caption += "✘ 𝐌𝐀𝐇𝐀𝐃𝐄𝐕 𝐓𝐀𝐍𝐃𝐀𝐕 𝐔𝐒𝐄𝐑𝐁𝐎𝐓  ✘\n\n"
+    pm_caption += "✘ 𝐌𝐀𝐇𝐀𝐃𝐄𝐕 𝐓ORNADO 𝐔𝐒𝐄𝐑𝐁𝐎𝐓  ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/MAHADEV_TORNADO_USERBOT_SUPPORT)\n"
     pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH)\n"
     pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝐌𝐀𝐇𝐀𝐃𝐄𝐕](https://github.com/SRIDHAR2021SIDDHARTH/MAHADEV-TANDAV-USERBOTS)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
